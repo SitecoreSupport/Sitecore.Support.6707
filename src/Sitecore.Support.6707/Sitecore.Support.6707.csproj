@@ -45,7 +45,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Mvc, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.Mvc.8.2.2\lib\Sitecore.Mvc.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.Mvc.8.2.1\lib\Sitecore.Mvc.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -58,7 +58,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zzz\Sitecore.Support.6707.config" />
+    <Content Include="App_Config\Include\zzz\Sitecore.Support.6707.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
